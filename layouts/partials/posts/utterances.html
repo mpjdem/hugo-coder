@@ -1,0 +1,9 @@
+{{- if eq (.Params.disable_comments | default false) false -}}
+  <script src="https://utteranc.es/client.js"
+    repo="mpjdem/utterances"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+  </script>
+{{- end -}}
